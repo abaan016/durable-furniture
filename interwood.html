@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+<title>Durable Furniture</title>
+
+<style>
+
+
+h1,h5,h2{
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+
+/* .bnam{
+  background-image: url(Assets/images/conbg.jpg);
+  background-size: cover;
+} */
+
+.nb1{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.568);
+}
+
+#Sbr{
+  border-radius: 30px;
+  
+}
+
+#Sbr:hover{box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.568);}
+
+#sbrb{
+  border-radius: 100px;
+}
+
+#navbarNav ul li a:hover{
+  color: #fff;
+  background-color: black;
+}
+
+#navbarNav .dropdown-menu .dropdown-item :hover{
+  color: white;
+}
+
+.social-icons{
+  display: flex;
+  text-align: center;
+  margin-left: 70%;
+}
+
+.social-icons a{
+  width: 34px;
+  height: 34px;
+  background-color: white;
+  border: 2px solid white;
+  color: rgb(0, 0, 0);
+ list-style: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-left: 5px;
+  transition: all 0.4s ease;
+}
+
+.social-icons a:hover{
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer-top{
+  padding-bottom: 90px;
+  padding: 90px;
+  background-color: lightgray;
+  
+}
+
+.footer-top li{
+  list-style: none;
+}
+
+.footer-top a{
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.footer-top a:hover{
+  color: rgb(0, 0, 0);
+}
+
+.footer-bottom{
+  background-color: #242933;
+}
+
+.logo{
+  width: 150px;
+}
+
+.card-effect{
+  /* border: 1px solid #242933; */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.692);
+  background-color: #fff;
+  padding: 20px;
+  transition: all 0.35s ease;
+}
+
+.card-effect:hover{
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+<!-- nav1   -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light ">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link my-1" aria-current="page" href="#"><i class="fa-solid fa-heart"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link my-1" href="#"><i class="fa-regular fa-envelope"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link my-1" href="#"><i class="fa-solid fa-phone"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="ms-auto" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" id="Sbr" type="search" placeholder="Search" aria-label="Search">
+              <a class="btn btn-outline-dark" id="sbrb" type="submit" href="#"><i class="fa-solid fa-magnifying-glass" onclick="searchbar"></i></a>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav1   -->
+  
+  <!-- nav2 -->
+  <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top nb1">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="Assets/images/logo.png" width="130px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li><a class="nav-link me-5 fw-bold text-uppercase" aria-current="page" href="index.html">Home</a></li>
+          <li><a class="nav-link me-5 fw-bold text-uppercase" href="about.html">about</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle me-5 fw-bold text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Brands
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item fw-bold" href="interwood.html">INTER WOOD</a></li>
+              <li><a class="dropdown-item fw-bold" href="habitt.html">HABITT</a></li>
+              <li><a class="dropdown-item fw-bold" href="dvh.html">DOCLE VITA HOME</a></li>
+              <li><a class="dropdown-item fw-bold" href="TA.html">THEODORE ALEXENDAR</a></li>
+              <li><a class="dropdown-item fw-bold" href="JC.html">JONATHAN CHARLES</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link me-5 fw-bold text-uppercase" href="compro.html">Compare products</a></li>
+          <li><a class="nav-link me-5 fw-bold text-uppercase" href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav2 -->
+
+<!-- bodycontent -->
+
+<div class="container-fluid">
+    <div class="row bnam">
+        <div class="col">
+            <h1 class="text-center text-uppercase my-5">Interwood Furniture</h1>
+        </div>
+    </div>
+</div>
+    
+<!-- sofas   -->
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Sofas</h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-sofa1.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Hester</h5>
+                  <!-- <p class="text-muted">Set Includes</p> -->
+                  <p class="fw-bold">PKR 117,528</p>
+                  <a href="word files/if-sofa1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal">See more</a>
+                  
+                </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Hester</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p class="fw-bold">Sofa Set Set Includes</p>
+                          <p class="text-muted">More Information, Click On Read More.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+               
+              </div>
+              
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-sofa2.png" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Sofa Kessel</h5>
+                  <!-- <p class="text-muted">Set In Grey Colour</p> -->
+                  <p class="fw-bold">PKR 202,852</p>
+                  <a href="word files/if-sofa2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal2" class="btn btn-sm btn-outline-dark fw-bold my-1"  data-bs-toggle="modal" data-bs-target="#exampleModal2">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Sofa Kessel</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Set In Grey Colour
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-sofa3.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Sofa Kessel</h5>
+                  <!-- <p class="text-muted">Set In Green Colour</p> -->
+                  <p class="fw-bold">PKR 95,201</p>
+                  <a href="word files/if-sofa1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal3">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Sofa Kessel</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Set In Green Colour
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-sofa4.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Anniston</h5>
+                  <!-- <p class="text-muted">Set Includes</p> -->
+                  <p class="fw-bold">PKR 213,476</p>
+                  <a href="word files/if-sofa2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal4">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Anniston</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Sofa set Set Includes
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </section>    
+
+<!-- sofas   -->
+
+<!-- beds   -->
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Bedroom</h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-bed1.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Fresco</h5>
+                  <!-- <p class="text-muted">(Bed + Bedside tables + Dresser + Mirror)</p> -->
+                  <p class="fw-bold">PKR 156,075</p>
+                  <a href="word files/if-bed1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal5">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Fresco</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        (Bed + Bedside tables + Dresser + Mirror)
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-bed2.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Nelson </h5>
+                  <!-- <p class="text-muted">(Bed + Bedside tables + Dresser + Mirror)</p> -->
+                  <p class="fw-bold">PKR 157,036</p>
+                  <a href="word files/if-bed2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal6">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Nelson</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        (Bed + Bedside tables + Dresser + Mirror)
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-bed3.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Chelsea</h5>
+                  <!-- <p class="text-muted">King Size <br> Wooden Bed Set</p> -->
+                  <p class="fw-bold">PKR 405,123</p>
+                  <a href="word files/if-bed1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal7">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Chelsea</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        King Size Wooden Bed Set
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-bed4.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Valen</h5>
+                  <!-- <p class="text-muted">King Size <br> Bed Set</p> -->
+                  <p class="fw-bold">PKR 95,000</p>
+                  <a href="word files/if-bed2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal8">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Valen</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        King Size Bed Set
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </section>    
+
+<!-- beds   -->
+
+<!-- sf   -->
+
+    <section  class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Study and Office</h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-studyandoffice1.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Study Table</h5>
+                  <!-- <p class="text-muted">Willow Red <br></p> -->
+                  <p class="fw-bold">PKR 9,130</p>
+                  <a href="word files/if-study n office1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal9">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Study Table</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Willow Red
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-studyandoffice2.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Study Chair</h5>
+                  <!-- <p class="text-muted">Willow For Kids In Red Colour</p> -->
+                  <p class="fw-bold">PKR 11,454</p>
+                  <a href="word files/if-study n office2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal11">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Study Chair</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Willow For Kids In Red Colour
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-studyandoffice3.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Study Chair</h5>
+                  <!-- <p class="text-muted">(Folding) <br></p> -->
+                  <p class="fw-bold">PKR 23,550</p>
+                  <a href="word files/if-study n office1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal22">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Study Chair</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        (Folding)
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-studyandoffice4.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Fresco</h5>
+                  <!-- <p class="text-muted">Drawer in Teak and White</p> -->
+                  <p class="fw-bold">PKR 38,678</p>
+                  <a href="word files/if-study n office2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal33">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal33" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Study Table Fresco</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Drawer in Teak and White
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </section>    
+
+<!-- sf   -->
+
+<!-- chairs   -->
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Chairs</h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-chair1.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Willa</h5>
+                  <!-- <p class="text-muted">Willa Also Available In</p> -->
+                  <p class="fw-bold">PKR 8,632</p>
+                  <a href="word files/if-chair1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal44">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal44" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Dining Chair Willa</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Willa Also Available In
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-chair2.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Dining Chair</h5>
+                  <!-- <p class="text-muted">Rocco in Bottle Green Velvet</p> -->
+                  <p class="fw-bold">PKR 23,074</p>
+                  <a href="word files/if-chair2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal55">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal55" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Dining Chair</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Rocco in Bottle Green Velvet
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-chair3.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Patchwork</h5>
+                  <!-- <p class="text-muted">(Light Color, Natural)</p> -->
+                  <p class="fw-bold">PKR 15,355</p>
+                  <a href="word files/if-chair1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal66">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal66" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Chair Patchwork</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        (Light Color, Natural)
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-chair4.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Dining Chair</h5>
+                  <!-- <p class="text-muted">Colombo Double XX</p> -->
+                  <p class="fw-bold">PKR 22,327</p>
+                  <a href="word files/if-chair2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal77">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal77" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Dining Chair</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Colombo Double XX
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </section>    
+
+<!-- chairs   -->
+
+<!-- dining   -->
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Dining</h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-dining1.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Deco Extendable</h5>
+                  <!-- <p class="text-muted">6 to 8 Persons Dining Set</p> -->
+                  <p class="fw-bold">PKR 76,360</p>
+                  <a href="word files/if-dining1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal88">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal88" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Deco Extendable</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        6 to 8 Persons Dining Set
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-dining2.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Fresco</h5>
+                  <!-- <p class="text-muted">4 Person Dining Set</p> -->
+                  <p class="fw-bold">PKR 67,064</p>
+                  <a href="word files/if-dining2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal99">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal99" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Fresco</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        4 Person Dining Set
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-dining3.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Willa</h5>
+                  <!-- <p class="text-muted">6 Person Dining Set</p> -->
+                  <p class="fw-bold">PKR 79,016</p>
+                  <a href="word files/if-dining1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModala">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModala" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Willa</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        6 Person Dining Set
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-dining4.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Antico Sienna</h5>
+                  <!-- <p class="text-muted">8 Person Dining Set</p> -->
+                  <p class="fw-bold">PKR 88,146</p>
+                  <a href="word files/if-dining2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalb">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Antico Sienna</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        8 Person Dining Set
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </section>    
+
+<!-- dining   -->
+
+<!-- decor   -->
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Decors</h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-decor1.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Bliss</h5>
+                  <!-- <p class="text-muted">Wall Mirror</p> -->
+                  <p class="fw-bold">PKR 6,080</p>
+                  <a href="word files/if-decor1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalc">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalc" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Bliss</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Wall Mirror
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-decor2.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Milano</h5>
+                  <!-- <p class="text-muted">Wall Clock</p> -->
+                  <p class="fw-bold">PKR 9,785</p>
+                  <a href="word files/if-decor2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModald">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModald" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Milano</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Wall Clock
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-decor3.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Noir </h5>
+                  <!-- <p class="text-muted">Wall Clock</p> -->
+                  <p class="fw-bold">PKR 6,080</p>
+                  <a href="word files/if-decor1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModale">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModale" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Noir</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Wall Clock
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/inerwood prod/if-decor4.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Luxe</h5>
+                  <!-- <p class="text-muted">Candle Holder</p> -->
+                  <p class="fw-bold">PKR 2,075</p>
+                  <a href="word files/if-decor1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalf">See more</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalf" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Luxe</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Candle Holder
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </section>    
+
+<!-- decor   -->
+
+
+<!-- bodycontent -->
+
+
+<!-- footerstart -->
+<footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-md-3">
+              <img src="Assets/images/logo.png" class="logo">
+          </div>
+          <div class="col-md-3">
+            <h5 class="text-dark fw-bold">Brand</h5>
+            <ul class="list-unstyled">
+              <li><a href="interwood.html">INTER WOOD</a></li>
+              <li><a href="habitt.html">HABITT</a></li>
+              <li><a href="dvh.html">DOCLE VITA HOME</a></li>
+              <li><a href="TA.html">THEODORE ALEXENDAR</a></li>
+              <li><a href="JC.html">JONATHAN CHARLES</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h5 class="text-dark fw-bold">More</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">FAQ'S</a></li>
+              <li><a href="#">Privacy & Policy</a></li>
+              <li><a href="#">Warrenty</a></li>
+              <li><a href="#">Shipments</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="text-dark fw-bold">Contact</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Address: 9116 S. Green Lake St. Cranston, RI 02920</a></li>
+              <li><a href="#">Email: durablefurniture@gmail.com</a></li>
+              <li><a href="#">Phone:</a></li>
+  
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-white my-3">
+            &copy; 2023 copyright all rights reserved
+          </div>
+          <div class="col-md-6 my-2">
+            <div class="social-icons">
+              <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- footerstart -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+<script>
+  const myModal = document.getElementById('myModal')
+  const myInput = document.getElementById('myInput')
+
+  myModal.addEventListener('shown.bs.modal', () => {
+    myInput.focus()
+  });
+  
+</script>
+
+</body>
+</html>

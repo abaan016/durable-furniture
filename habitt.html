@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+<title>Durable Furniture</title>
+
+<style>
+
+h1,h5,h2{
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+
+
+
+.nb1{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.568);
+}
+
+#Sbr{
+  border-radius: 30px;
+  
+}
+
+#Sbr:hover{box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.568);}
+
+#sbrb{
+  border-radius: 100px;
+}
+
+#navbarNav ul li a:hover{
+  color: #fff;
+  background-color: black;
+}
+
+#navbarNav .dropdown-menu .dropdown-item :hover{
+  color: white;
+}
+
+.social-icons{
+  display: flex;
+  text-align: center;
+  margin-left: 70%;
+}
+
+.social-icons a{
+  width: 34px;
+  height: 34px;
+  background-color: white;
+  border: 2px solid white;
+  color: rgb(0, 0, 0);
+ list-style: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-left: 5px;
+  transition: all 0.4s ease;
+}
+
+.social-icons a:hover{
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer-top{
+  padding-bottom: 90px;
+  padding: 90px;
+  background-color: lightgray;
+  
+}
+
+.footer-top li{
+  list-style: none;
+}
+
+.footer-top a{
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.footer-top a:hover{
+  color: rgb(0, 0, 0);
+}
+
+.footer-bottom{
+  background-color: #242933;
+}
+
+.logo{
+  width: 150px;
+}
+
+.card-effect{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.692);
+  background-color: #fff;
+  padding: 20px;
+  transition: all 0.35s ease;
+}
+
+.card-effect:hover{
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+<!-- nav1   -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light ">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link my-1" aria-current="page" href="#"><i class="fa-solid fa-heart"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link my-1" href="#"><i class="fa-regular fa-envelope"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link my-1" href="#"><i class="fa-solid fa-phone"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="ms-auto" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" id="Sbr" type="search" placeholder="Search" aria-label="Search">
+            <a class="btn btn-outline-dark" id="sbrb" type="submit" href="#"><i class="fa-solid fa-magnifying-glass" onclick="searchbar"></i></a>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- nav1   -->
+
+<!-- nav2 -->
+<nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top nb1">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="Assets/images/logo.png" width="130px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li><a class="nav-link me-5 fw-bold text-uppercase" aria-current="page" href="index.html">Home</a></li>
+        <li><a class="nav-link me-5 fw-bold text-uppercase" href="about.html">about</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle me-5 fw-bold text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Brands
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item fw-bold" href="interwood.html">INTER WOOD</a></li>
+            <li><a class="dropdown-item fw-bold" href="habitt.html">HABITT</a></li>
+            <li><a class="dropdown-item fw-bold" href="dvh.html">DOCLE VITA HOME</a></li>
+            <li><a class="dropdown-item fw-bold" href="TA.html">THEODORE ALEXENDAR</a></li>
+            <li><a class="dropdown-item fw-bold" href="JC.html">JONATHAN CHARLES</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link me-5 fw-bold text-uppercase" href="compro.html">Compare products</a></li>
+        <li><a class="nav-link me-5 fw-bold text-uppercase" href="contact.html">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- nav2 -->
+
+<!-- bodycontent -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center fw-bold text-uppercase my-5">Habitt Furniture</h1>
+        </div>
+    </div>
+</div>
+    
+<!-- beds   -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Beds</h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-bed1.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Kenton X Bed </h5>
+                  <!-- <p class="text-muted">With 2 Side Table</p> -->
+                  <p class="fw-bold">Rs.105,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModal">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Kenton </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        X Bed With 2 Side Table
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-bed2.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Carter Bed</h5>
+                  <!-- <p class="text-muted">K/S 2 Side Table LF-28/</p> -->
+                  <p class="fw-bold">Rs.99,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModala">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModala" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Carter</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        K/S 2 Side Table LF-28
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-bed3.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Edify Queen</h5>
+                  <!-- <p class="text-muted">Bed With 2 Side Table</p> -->
+                  <p class="fw-bold">Rs.209,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalb">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Edify Queen</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Bed With 2 Side Table
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-bed4.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Bolin </h5>
+                  <!-- <p class="text-muted">king size bed</p> -->
+                  <p class="fw-bold">Rs.379,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalc">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalc" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Bolin</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        king size bed
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </section>    
+<!-- beds   -->
+
+<!-- chairs   -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Chairs</h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-chair1.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Round bac chair</h5><br>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.79,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModald">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModald" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Round bac chair</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        360 degree rotation Armchair
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-chair2.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Vintage Chair</h5><br>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.119,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModale">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModale" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Vintage</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        360 degree rotation Armchair
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-chair3.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Arlo Chair Patrick</h5><br>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.55,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalf">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalf" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Arlo</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Chair Patrick 360 degree rotation Armchair
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-chair4.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Mid century Chair</h5><br>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.32,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalg">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalg" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Mid century</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        360 degree rotation Armchair
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </section>    
+<!-- chairs   -->
+
+<!-- sao   -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Study & office </h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-sao1.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Executive Chair HB123</h5><br>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Soon</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalh">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalh" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Executive</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        360 degree rotation Armchair
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-sao2.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Dynamic Table</h5> <br>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Soon</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModali">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModali" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Dynamic</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Table
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-sao3.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">L shape grid</h5><br>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.56,079</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalj">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalj" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Grid</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        L shape 
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-sao4.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Dynamic Workstation</h5>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.43,900</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalk">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalk" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Dynamic</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Workstation
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-sao5.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Cuddler table</h5><br>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.19,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModall">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModall" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Cuddler</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        table
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-sao6.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Portable Workstation</h5>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.22,900</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalm">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Portable</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Workstation
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-sao7.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Xplore table</h5><br>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">22,900</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModaln">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModaln" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Xplore</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        table
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-sao8.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Avery table</h5><br>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.54,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalo">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Avery</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        table
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </section>    
+<!-- sao   -->
+
+<!-- sofas   -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Sofas</h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-sofa1.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Osborne 201</h5>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.59,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalp">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Osborne</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        201
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-sofa2.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Billy L shape</h5>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.49,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalq">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalq" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Billy</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        L shape
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-sofa3.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Raven Sofa</h5>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.34,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalr">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalr" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Raven</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Sofa
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-sofa4.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Osborne HLD</h5>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.59,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModals">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModals" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Osborne</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        HLD
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </section>    
+<!-- sofas   -->
+
+<!-- Decors   -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Decors</h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-decor1.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">T-light glass</h5><br>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.1,290</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalt">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalt" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">glass</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        T-light
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-decor2.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Side t-lamp</h5><br>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.4,900</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalu">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">t-lamp</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        t-lamp
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-decor3.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Daisy Bush Flower</h5><br>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalv">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Daisy</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Bush Flower
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/habitt/h-decor4.webp" class="img-fluid">
+                  <h5 class="fw-bold mt-2">Arrangement..S</h5><br>
+                  <!-- <p class="text-muted">360 degree rotation Armchair</p> -->
+                  <p class="fw-bold">Rs.12,900</p>
+                  <a href="#" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalw">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalw" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Arrangement</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Arrangement..S
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </section>    
+<!-- Decors   -->
+
+
+
+
+<!-- bodycontent -->
+
+
+<!-- footerstart -->
+<footer>
+  <div class="footer-top">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-3">
+            <img src="Assets/images/logo.png" class="logo">
+        </div>
+        <div class="col-md-3">
+          <h5 class="text-dark fw-bold">Brand</h5>
+          <ul class="list-unstyled">
+            <li><a href="interwood.html">INTER WOOD</a></li>
+            <li><a href="habitt.html">HABITT</a></li>
+            <li><a href="dvh.html">DOCLE VITA HOME</a></li>
+            <li><a href="TA.html">THEODORE ALEXENDAR</a></li>
+            <li><a href="JC.html">JONATHAN CHARLES</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h5 class="text-dark fw-bold">More</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">FAQ'S</a></li>
+            <li><a href="#">Privacy & Policy</a></li>
+            <li><a href="#">Warrenty</a></li>
+            <li><a href="#">Shipments</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-dark fw-bold">Contact</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Address: 9116 S. Green Lake St. Cranston, RI 02920</a></li>
+            <li><a href="#">Email: durablefurniture@gmail.com</a></li>
+            <li><a href="#">Phone:</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-white my-3">
+          &copy; 2023 copyright all rights reserved
+        </div>
+        <div class="col-md-6 my-2">
+          <div class="social-icons">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footerstart -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+<script>
+  const myModal = document.getElementById('myModal')
+  const myInput = document.getElementById('myInput')
+
+  myModal.addEventListener('shown.bs.modal', () => {
+    myInput.focus()
+  });
+  
+</script>
+
+</body>
+</html>

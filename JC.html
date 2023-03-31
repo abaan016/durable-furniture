@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+<title>Durable Furniture</title>
+
+<style>
+
+h1,h5,h2{
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+
+
+
+.nb1{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.568);
+}
+
+#Sbr{
+  border-radius: 30px;
+  
+}
+
+#Sbr:hover{box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.568);}
+
+#sbrb{
+  border-radius: 100px;
+}
+
+#navbarNav ul li a:hover{
+  color: #fff;
+  background-color: black;
+}
+
+#navbarNav .dropdown-menu .dropdown-item :hover{
+  color: white;
+}
+
+.social-icons{
+  display: flex;
+  text-align: center;
+  margin-left: 70%;
+}
+
+.social-icons a{
+  width: 34px;
+  height: 34px;
+  background-color: white;
+  border: 2px solid white;
+  color: rgb(0, 0, 0);
+ list-style: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-left: 5px;
+  transition: all 0.4s ease;
+}
+
+.social-icons a:hover{
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer-top{
+  padding-bottom: 90px;
+  padding: 90px;
+  background-color: lightgray;
+  
+}
+
+.footer-top li{
+  list-style: none;
+}
+
+.footer-top a{
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.footer-top a:hover{
+  color: rgb(0, 0, 0);
+}
+
+.footer-bottom{
+  background-color: #242933;
+}
+
+.logo{
+  width: 150px;
+}
+
+.card-effect{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.692);
+  background-color: #fff;
+  padding: 20px;
+  transition: all 0.35s ease;
+}
+
+.card-effect:hover{
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+<!-- nav1   -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light ">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link my-1" aria-current="page" href="#"><i class="fa-solid fa-heart"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link my-1" href="#"><i class="fa-regular fa-envelope"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link my-1" href="#"><i class="fa-solid fa-phone"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="ms-auto" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" id="Sbr" type="search" placeholder="Search" aria-label="Search">
+            <a class="btn btn-outline-dark" id="sbrb" type="submit" href="#"><i class="fa-solid fa-magnifying-glass" onclick="searchbar"></i></a>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- nav1   -->
+
+<!-- nav2 -->
+<nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top nb1">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="Assets/images/logo.png" width="130px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li><a class="nav-link me-5 fw-bold text-uppercase" aria-current="page" href="index.html">Home</a></li>
+        <li><a class="nav-link me-5 fw-bold text-uppercase" href="about.html">about</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle me-5 fw-bold text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Brands
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item fw-bold" href="interwood.html">INTER WOOD</a></li>
+            <li><a class="dropdown-item fw-bold" href="habitt.html">HABITT</a></li>
+            <li><a class="dropdown-item fw-bold" href="dvh.html">DOCLE VITA HOME</a></li>
+            <li><a class="dropdown-item fw-bold" href="TA.html">THEODORE ALEXENDAR</a></li>
+            <li><a class="dropdown-item fw-bold" href="JC.html">JONATHAN CHARLES</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link me-5 fw-bold text-uppercase" href="compro.html">Compare products</a></li>
+        <li><a class="nav-link me-5 fw-bold text-uppercase" href="contact.html">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- nav2 -->
+
+<!-- bodycontent -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center fw-bold text-uppercase my-5">jonathan charles</h1>
+        </div>
+    </div>
+</div>
+    
+<!-- table   -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Table</h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-table1.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">GEOMETRIC</h5>
+                  <!-- <p class="text-muted">Geometric Console Table</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-dining1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModala">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModala" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">GEOMETRIC</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Console Table
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-table2.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">ECLECTIC</h5>
+                  <!-- <p class="text-muted">Double Diamond Bookmatched</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-dining2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalb">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">ECLECTIC</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Double Diamond Bookmatched
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-table3.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">LUXE</h5>
+                  <!-- <p class="text-muted">Eglomise - Gilded</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-dining1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalc">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalc" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">LUXE</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Eglomise - Gilded
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-table4.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">SOHO</h5>
+                  <!-- <p class="text-muted">Console Table Liberty</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-dining2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModald">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModald" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">SOHO</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Table Liberty
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </section>    
+<!-- table   -->
+
+<!-- Chairs   -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Chairs</h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-chair1.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">CASUALLY COUNTRY</h5>
+                  <!-- <p class="text-muted">Mazo - Country Walnut</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-chair1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModale">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModale" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">CASUALLY COUNTRY</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Mazo - Country Walnut
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-chair2.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">HAMILTON</h5>
+                  <!-- <p class="text-muted">Golden Amber</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-chair2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalf">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalf" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">HAMILTON</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Golden Amber
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-chair3.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">WINDSOR</h5>
+                  <!-- <p class="text-muted">Sheraton in Walnut Mazo</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-chair1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalg">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalg" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">WINDSOR</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Sheraton in Walnut Mazo
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-chair4.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2"> CASUALLY COUNTRY</h5>
+                  <!-- <p class="text-muted">Rustic Ladder</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-chair2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalh">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalh" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">CASUALLY COUNTRY</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Rustic Ladder
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </section>    
+<!-- Chairs   -->
+
+<!-- Beds   -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Beds</h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-bed1.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">BUCKINGHAM</h5>
+                  <!-- <p class="text-muted">King Four Poster Bed</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-bed1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModali">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModali" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">BUCKINGHAM</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        King Four Poster Bed
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-bed2.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">BELGRAVIA</h5>
+                  <!-- <p class="text-muted">King Bed Frame</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-bed2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalj">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalj" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">BELGRAVIA</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-bed3.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">GEOMETRIC</h5>
+                  <!-- <p class="text-muted">Super King Bed Frame</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-bed1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalk">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalk" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">GEOMETRIC</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Super King Bed Frame
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-bed4.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">WINDSOR</h5>
+                  <!-- <p class="text-muted">Super King Sleigh Bed MonarchIN STOCK</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-bed2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModall">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModall" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">WINDSOR</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Super King Sleigh Bed MonarchIN STOCK
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+       
+      </section>    
+<!-- Beds   -->
+
+<!-- Cabinet   -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="col-lg-8 ">
+                
+                <h1 class="mt-0">Cabinet</h1>
+                
+              </div>
+            <div class="row g-4">
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-cabinet1.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2"> GEOMETRIC</h5>
+                  <!-- <p class="text-muted">Geometric Media Cabinet</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-study n office1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalm">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">GEOMETRIC</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Geometric Media Cabinet
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-cabinet2.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">BARCELONA</h5>
+                  <!-- <p class="text-muted">Catalonia Walnut</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-study n office2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModaln">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModaln" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">BARCELONA</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Catalonia Walnut
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-cabinet3.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">CASUALLY COUNTRY</h5>
+                  <!-- <p class="text-muted">Drinks Cabinet Rustic</p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-study n office1.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalo">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">CASUALLY COUNTRY</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Drinks Cabinet Rustic
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="blog-post card-effect">
+                  <img src="Assets/jonathan/jc-cabinet4.jpg" class="img-fluid">
+                  <h5 class="fw-bold mt-2">OP ART</h5>
+                  <!-- <p class="text-muted">Storage Cabinet </p> -->
+                  <p class="fw-bold">Rs.155,000</p>
+                  <a href="word files/if-study n office2.docx" download="" target="" class="btn btn-sm btn-dark text-white">Download</a>
+                  <a href="#myModal" class="btn btn-sm btn-outline-dark fw-bold my-1" data-bs-toggle="modal" data-bs-target="#exampleModalp">See more</a> 
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">OP ART</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Storage Cabinet
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+      </section>    
+<!-- Cabinet   -->
+
+
+<!-- bodycontent -->
+
+
+<!-- footerstart -->
+<footer>
+  <div class="footer-top">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-3">
+            <img src="Assets/images/logo.png" class="logo">
+        </div>
+        <div class="col-md-3">
+          <h5 class="text-dark fw-bold">Brand</h5>
+          <ul class="list-unstyled">
+            <li><a href="interwood.html">INTER WOOD</a></li>
+            <li><a href="habitt.html">HABITT</a></li>
+            <li><a href="dvh.html">DOCLE VITA HOME</a></li>
+            <li><a href="TA.html">THEODORE ALEXENDAR</a></li>
+            <li><a href="JC.html">JONATHAN CHARLES</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h5 class="text-dark fw-bold">More</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">FAQ'S</a></li>
+            <li><a href="#">Privacy & Policy</a></li>
+            <li><a href="#">Warrenty</a></li>
+            <li><a href="#">Shipments</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-dark fw-bold">Contact</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Address: 9116 S. Green Lake St. Cranston, RI 02920</a></li>
+            <li><a href="#">Email: durablefurniture@gmail.com</a></li>
+            <li><a href="#">Phone:</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-white my-3">
+          &copy; 2023 copyright all rights reserved
+        </div>
+        <div class="col-md-6 my-2">
+          <div class="social-icons">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footerstart -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

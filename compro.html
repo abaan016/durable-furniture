@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Durable Furniture</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="compare.css">
+    <link rel="stylesheet" href="Home.css">
+    <!-- fonts link -->
+<style>
+
+
+h1,h5,h2{
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+
+.nb1{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.568);
+}
+
+
+#navbarNav ul li a:hover{
+  color: #fff;
+  background-color: black;
+}
+
+#Sbr{
+  border-radius: 30px;
+  
+}
+
+#Sbr:hover{box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.568);}
+
+#sbrb{
+  border-radius: 100px;
+}
+
+#navbarNav .dropdown-menu .dropdown-item :hover{
+  color: white;
+}
+
+.social-icons{
+  display: flex;
+  text-align: center;
+  margin-left: 70%;
+}
+
+.social-icons a{
+  width: 34px;
+  height: 34px;
+  background-color: white;
+  border: 2px solid white;
+  color: rgb(0, 0, 0);
+ list-style: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-left: 5px;
+  transition: all 0.4s ease;
+}
+
+.social-icons a:hover{
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+
+
+.footer-top{
+  padding-bottom: 90px;
+  padding: 90px;
+  background-color: lightgray;
+  
+}
+
+.footer-top li{
+  list-style: none;
+}
+
+.footer-top a{
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.footer-top a:hover{
+  color: rgb(0, 0, 0);
+}
+
+.footer-bottom{
+  background-color: #242933;
+}
+
+.logo{
+  width: 150px;
+}
+
+
+/* media start */
+ 
+@media (min-width:510px)
+{
+    #brand1
+    {
+        width: 40%;
+    }
+    #brand2
+    {
+        width: 40%;
+    }
+    #model1
+    {
+        width: 40%;
+    }
+    #model2
+    {
+        width: 40%;
+    }
+    #pr1
+    {
+        width: 40%;
+    }
+    #pr2
+    {
+        width: 40%;
+    }
+    #build1
+    {
+        width: 40%;
+    }
+    #build2
+    {
+        width: 40%;
+    }
+    #build3
+    {
+        width: 40%;
+    }
+    #build4
+    {
+        width: 40%;
+    }
+    #build5
+    {
+        width: 40%;
+    }
+    #build6
+    {
+        width: 40%;
+    }
+    #pro1
+    {
+        width: 40%;
+    }
+    #pro2
+    {
+        width: 40%;
+    }
+    #dis1
+    {
+        width: 40%;
+    }
+    #dis2
+    {
+        width: 40%;
+    }
+    #dis3
+    {
+        width: 40%;
+    }
+    #dis4
+    {
+        width: 40%;
+    }
+    #dis5
+    {
+        width: 40%;
+    }
+    #dis6
+    {
+        width: 40%;
+    }
+    #mem1
+    {
+        width: 40%;
+    }
+    #mem2
+    {
+        width: 40%;
+    }
+    #cam1
+    {
+        width: 40%;
+    }
+    #cam2
+    {
+        width: 40%;
+    }
+    #cam3
+    {
+        width: 40%;
+    }
+    #cam4
+    {
+        width: 40%;
+    }
+    #bat1
+    {
+        width: 40%;
+    }
+    #bat2
+    {
+        width: 40%;
+    }
+    #bat3
+    {
+        width: 40%;
+    }
+    #bat4
+    {
+        width: 40%;
+    }
+    #compimg1
+    {
+       object-fit: contain; 
+        width: 100%;
+        
+    }
+    #compimg2
+    {
+       object-fit: contain;
+        width: 100%;
+    }
+}
+@media (min-width:394px) and (max-width:510px)
+{
+    
+    
+    #brand1
+    {
+        width: 40%;
+    }
+    #brand2
+    {
+        width: 40%;
+    }
+    #model1
+    {
+        width: 40%;
+    }
+    #model2
+    {
+        width: 40%;
+    }
+    #pr1
+    {
+        width: 40%;
+    }
+    #pr2
+    {
+        width: 40%;
+    }
+    #build1
+    {
+        width: 40%;
+    }
+    #build2
+    {
+        width: 40%;
+    }
+    #build3
+    {
+        width: 40%;
+    }
+    #build4
+    {
+        width: 40%;
+    }
+    #build5
+    {
+        width: 40%;
+    }
+    #build6
+    {
+        width: 40%;
+    }
+    #pro1
+    {
+        width: 40%;
+    }
+    #pro2
+    {
+        width: 40%;
+    }
+    #dis1
+    {
+        width: 40%;
+    }
+    #dis2
+    {
+        width: 40%;
+    }
+    #dis3
+    {
+        width: 40%;
+    }
+    #dis4
+    {
+        width: 40%;
+    }
+    #dis5
+    {
+        width: 40%;
+    }
+    #dis6
+    {
+        width: 40%;
+    }
+    #mem1
+    {
+        width: 40%;
+    }
+    #mem2
+    {
+        width: 40%;
+    }
+    #cam1
+    {
+        width: 40%;
+    }
+    #cam2
+    {
+        width: 40%;
+    }
+    #cam3
+    {
+        width: 40%;
+    }
+    #cam4
+    {
+        width: 40%;
+    }
+    #bat1
+    {
+        width: 40%;
+    }
+    #bat2
+    {
+        width: 40%;
+    }
+    #bat3
+    {
+        width: 40%;
+    }
+    #bat4
+    {
+        width: 40%;
+    }
+    #select1
+    {
+        width: 100%;
+    }
+    #select2
+    {
+        width: 100%;
+    }
+    #compimg1
+    {
+       object-fit: contain; 
+        width: 100%;
+        
+    }
+    #compimg2
+    {
+       object-fit: contain;
+        width: 100%;
+    }
+    #compcontain
+    {
+        width: 520px;
+    }
+    #footcontain
+    {
+        width: 520px;
+    }
+}
+@media (min-width:208px) and (max-width:393px)
+{
+ 
+    #brand1
+    {
+        width: 40%;
+    }
+    #brand2
+    {
+        width: 40%;
+    }
+    #model1
+    {
+        width: 40%;
+    }
+    #model2
+    {
+        width: 40%;
+    }
+    #pr1
+    {
+        width: 40%;
+    }
+    #pr2
+    {
+        width: 40%;
+    }
+    #build1
+    {
+        width: 40%;
+    }
+    #build2
+    {
+        width: 40%;
+    }
+    #build3
+    {
+        width: 40%;
+    }
+    #build4
+    {
+        width: 40%;
+    }
+    #build5
+    {
+        width: 40%;
+    }
+    #build6
+    {
+        width: 40%;
+    }
+    #pro1
+    {
+        width: 40%;
+    }
+    #pro2
+    {
+        width: 40%;
+    }
+    #dis1
+    {
+        width: 40%;
+    }
+    #dis2
+    {
+        width: 40%;
+    }
+    #dis3
+    {
+        width: 40%;
+    }
+    #dis4
+    {
+        width: 40%;
+    }
+    #dis5
+    {
+        width: 40%;
+    }
+    #dis6
+    {
+        width: 40%;
+    }
+    #mem1
+    {
+        width: 40%;
+    }
+    #mem2
+    {
+        width: 40%;
+    }
+    #cam1
+    {
+        width: 40%;
+    }
+    #cam2
+    {
+        width: 40%;
+    }
+    #cam3
+    {
+        width: 40%;
+    }
+    #cam4
+    {
+        width: 40%;
+    }
+    #bat1
+    {
+        width: 40%;
+    }
+    #bat2
+    {
+        width: 40%;
+    }
+    #bat3
+    {
+        width: 40%;
+    }
+    #bat4
+    {
+        width: 40%;
+    }
+    #select1
+    {
+        width: 100%;
+    }
+    #select2
+    {
+        width: 100%;
+    }
+    #compimg1
+    {
+       object-fit: contain;
+       width:100%;
+    }
+    #compimg2
+    {
+        object-fit: contain;
+        width:100%;
+    }
+    #compcontain
+    {
+        width: 520px;
+    }
+    #footcontain
+    {
+        width: 520px;
+    }
+}
+
+@media (max-width:207px)
+{
+    #brand1
+    {
+        width: 40%;
+    }
+    #brand2
+    {
+        width: 40%;
+    }
+    #model1
+    {
+        width: 40%;
+    }
+    #model2
+    {
+        width: 40%;
+    }
+    #pr1
+    {
+        width: 40%;
+    }
+    #pr2
+    {
+        width: 40%;
+    }
+    #build1
+    {
+        width: 40%;
+    }
+    #build2
+    {
+        width: 40%;
+    }
+    #build3
+    {
+        width: 40%;
+    }
+    #build4
+    {
+        width: 40%;
+    }
+    #build5
+    {
+        width: 40%;
+    }
+    #build6
+    {
+        width: 40%;
+    }
+    #pro1
+    {
+        width: 40%;
+    }
+    #pro2
+    {
+        width: 40%;
+    }
+    #dis1
+    {
+        width: 40%;
+    }
+    #dis2
+    {
+        width: 40%;
+    }
+    #dis3
+    {
+        width: 40%;
+    }
+    #dis4
+    {
+        width: 40%;
+    }
+    #dis5
+    {
+        width: 40%;
+    }
+    #dis6
+    {
+        width: 40%;
+    }
+    #mem1
+    {
+        width: 40%;
+    }
+    #mem2
+    {
+        width: 40%;
+    }
+    #cam1
+    {
+        width: 40%;
+    }
+    #cam2
+    {
+        width: 40%;
+    }
+    #cam3
+    {
+        width: 40%;
+    }
+    #cam4
+    {
+        width: 40%;
+    }
+    #bat1
+    {
+        width: 40%;
+    }
+    #bat2
+    {
+        width: 40%;
+    }
+    #bat3
+    {
+        width: 40%;
+    }
+    #bat4
+    {
+        width: 40%;
+    }
+    #compcontain
+    {
+        width: 520px;
+    }
+    #compimg1
+    {
+       object-fit: contain; 
+        width: 60%;
+        
+    }
+    #compimg2
+    {
+        
+       object-fit: contain;
+        width:60%;
+    }
+    #footcontain
+    {
+        width: 520px;
+    }
+}
+/* media end */
+#compcontain
+{
+    
+    margin-top: 150px;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+}
+#compimg1
+{
+    
+    height: 300px;
+}
+#compimg2
+{
+    height: 300px;
+}
+#comphead
+{
+    font-weight: bold;
+}
+#compbrand
+{
+    color: #00028a;
+}
+
+ </style>
+   
+</head>
+<body>
+<!-- nav1   -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light ">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link my-1" aria-current="page" href="#"><i class="fa-solid fa-heart"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link my-1" href="#"><i class="fa-regular fa-envelope"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link my-1" href="#"><i class="fa-solid fa-phone"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="ms-auto" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" id="Sbr" type="search" placeholder="Search" aria-label="Search">
+              <a class="btn btn-outline-dark" id="sbrb" type="submit" href="#"><i class="fa-solid fa-magnifying-glass" onclick="searchbar"></i></a>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav1   -->
+  
+  <!-- nav2 -->
+  <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top nb1">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="Assets/images/logo.png" width="130px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li><a class="nav-link me-5 fw-bold text-uppercase" aria-current="page" href="index.html">Home</a></li>
+          <li><a class="nav-link me-5 fw-bold text-uppercase" href="about.html">about</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle me-5 fw-bold text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Brands
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item fw-bold" href="interwood.html">INTER WOOD</a></li>
+              <li><a class="dropdown-item fw-bold" href="habitt.html">HABITT</a></li>
+              <li><a class="dropdown-item fw-bold" href="dvh.html">DOCLE VITA HOME</a></li>
+              <li><a class="dropdown-item fw-bold" href="TA.html">THEODORE ALEXENDAR</a></li>
+              <li><a class="dropdown-item fw-bold" href="JC.html">JONATHAN CHARLES</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link me-5 fw-bold text-uppercase" href="compro.html">Compare products</a></li>
+          <li><a class="nav-link me-5 fw-bold text-uppercase" href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- nav2 -->
+
+    <!-- compare start -->
+    <div class="container card p-4 mb-5" id="compcontain">
+
+    
+    <h1 class=" text-center my-5" id="heading">Compare Furniture Brands</h1>
+    <table class="table">
+        <tr id="row1" class="bg-light">
+        <td></td>
+        <th >
+            <select class="form-control" id="select1" onchange="item1(this.value)">
+                <option value="0"></option>
+            </select>
+        </th>
+        <th>
+            <select class="form-control" id="select2" onchange="item2(this.value)">
+                <option value="0"></option>
+            </select>
+        </th>
+    </tr>
+    <tr>
+        
+        <td></td>
+        <div id="imgdiv">
+        <td><img id="compimg1" src="no2.jpg"></td>
+        </div>
+        <div id="imgdiv">
+        <td><img  id="compimg2" src="no2.jpg"></td>
+        </div>
+    </tr>
+    <tr>
+        <th id="compbrand">Furniture</th>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td id="comphead">Brand</td>
+        <td id="brand1">N/A</td>
+        <td id="brand2">N/A</td>
+    </tr>
+    <tr>
+       
+        <td id="comphead">Name</td>
+        <td id="model1">N/A</td>
+        <td id="model2">N/A</td>
+    </tr>
+    <tr>
+        <td id="comphead">Price</td>
+        <td id="pr1">N/A</td>
+        <td id="pr2">N/A</td>
+    </tr>
+        
+    <tr>
+        <td id="comphead">Colors</td>
+        <td id="build5">N/A</td>
+        <td id="build6">N/A</td>
+    </tr>
+   
+   
+  
+    </table>
+</div>
+<!-- footerstart -->
+<footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-md-3">
+              <img src="Assets/images/logo.png" class="logo">
+          </div>
+          <div class="col-md-3">
+            <h5 class="text-dark fw-bold">Brand</h5>
+            <ul class="list-unstyled">
+              <li><a href="interwood.html">INTER WOOD</a></li>
+              <li><a href="habitt.html">HABITT</a></li>
+              <li><a href="dvh.html">DOCLE VITA HOME</a></li>
+              <li><a href="TA.html">THEODORE ALEXENDAR</a></li>
+              <li><a href="JC.html">JONATHAN CHARLES</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h5 class="text-dark fw-bold">More</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">FAQ'S</a></li>
+              <li><a href="#">Privacy & Policy</a></li>
+              <li><a href="#">Warrenty</a></li>
+              <li><a href="#">Shipments</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="text-dark fw-bold">Contact</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Address: 9116 S. Green Lake St. Cranston, RI 02920</a></li>
+              <li><a href="#">Email: durablefurniture@gmail.com</a></li>
+              <li><a href="#">Phone:</a></li>
+  
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-white my-3">
+            &copy; 2023 copyright all rights reserved
+          </div>
+          <div class="col-md-6 my-2">
+            <div class="social-icons">
+              <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- footerstart -->
+  
+    <script src="compro.js"></script>
+    <script>
+        for(var i=1;i<products.length;i++)
+        {
+            document.getElementById("select1").innerHTML += `
+            <option value="${i}">${products[i].Brand}__${products[i].Model}</option>
+            `
+            document.getElementById("select2").innerHTML += `
+            <option value="${i}">${products[i].Brand}__${products[i].Model}</option>
+            `
+        }
+        function item1(a)
+        {
+          var s2 = document.getElementById("select2").value;
+          
+          if(a != s2)
+          {
+          document.getElementById("compimg1").src = products[a].Image ;
+          document.getElementById("brand1").innerHTML = products[a].Brand ;
+          document.getElementById("model1").innerHTML = products[a].Name ;
+          document.getElementById("pr1").innerHTML = products[a].Price ;
+          document.getElementById("build5").innerHTML = products[a].Color ;
+
+          }
+          else
+          {
+            document.getElementById("compimg1").src = products[0].Image ;
+          document.getElementById("brand1").innerHTML = "N/A" ;
+          document.getElementById("model1").innerHTML = "N/A" ;
+          document.getElementById("pr1").innerHTML = "N/A" ;
+          document.getElementById("build5").innerHTML = "N/A" ;
+          
+          }
+     
+        }
+        function item2(a)
+        {
+            var s1 = document.getElementById("select1").value;
+        if(a != s1)
+        {
+          document.getElementById("compimg2").src = products[a].Image ;
+          document.getElementById("brand2").innerHTML = products[a].Brand ;
+          document.getElementById("model2").innerHTML = products[a].Name ;
+          document.getElementById("pr2").innerHTML = products[a].Price ;
+          document.getElementById("build6").innerHTML = products[a].Color ;
+
+          }
+          else
+          {
+            document.getElementById("compimg2").src = products[0].Image ;
+          document.getElementById("brand2").innerHTML = "N/A" ;
+          document.getElementById("model2").innerHTML = "N/A" ;
+          document.getElementById("pr2").innerHTML = "N/A" ;
+          document.getElementById("build6").innerHTML = "N/A" ;
+
+        }
+       
+        }
+    </script>
+</body>
+</html>
